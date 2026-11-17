@@ -1,9 +1,14 @@
 [app]
-android.accept_sdk_license = True
 title = Saka Oyunum
 package.name = sakaoyun
 package.domain = org.saka
+
+# Projenin ana klasör yeri (Hata veren eksik kısım burasıydı)
+source.dir = .
+
+# Dosya uzantıları
 source.include_exts = py,png,jpg,kv,atlas,ogg,gif
+
 version = 0.1
 requirements = python3,kivy
 orientation = portrait
