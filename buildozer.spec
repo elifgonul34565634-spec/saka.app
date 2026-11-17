@@ -13,7 +13,9 @@ osx.python_version = 3
 osx.kivy_version = 1.9.1
 fullscreen = 0
 
-# KRİTİK EKLEME: Lisans hatasını çözen sihirli satır burası
+# Android Kararlılık Ayarları (Hataları kökten kesen kısım)
+android.api = 33
+android.ndk = 25b
 android.accept_sdk_license = True
 
 [buildozer]
