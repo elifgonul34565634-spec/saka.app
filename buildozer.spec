@@ -1,4 +1,5 @@
 [app]
+android.accept_sdk_license = True
 title = Saka Oyunum
 package.name = sakaoyun
 package.domain = org.saka
